@@ -1,0 +1,85 @@
+.white {
+    color: whitesmoke;
+}
+.rounding {
+    border-radius: 20px;
+}
+.tt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.big {
+    font-size: 40px;
+    margin: 0%;
+    margin-bottom: 5px;
+}
+.small {
+    font-size: large;
+    margin: 0%;
+}
+
+.hot_tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(50, 160, 42);
+    margin-top: -150px;
+}
+.tour_text {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+}
+#tour_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tour_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 360px;
+    border-radius: 20px;
+    height: 140px;
+}
+.t_card_numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+    height: 40px;
+    font-family: 'Courier New', Courier, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#t_card_logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 40px ;
+}
+.t_card {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100px;
+}
+.t_card_text_calendar {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    
+}
+#tour_button {
+    margin-top: 15px;
+    width: 348px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(174, 174, 174, 0.655);
+}
+#tour_button:hover {
+    background-color: rgba(188, 188, 188, 0.411);
+    cursor: pointer;
+}

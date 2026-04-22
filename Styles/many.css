@@ -1,0 +1,160 @@
+.many {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.city {
+    display: flex;
+    flex-direction: row;
+}
+.city_1 {
+    display: flex;
+    flex-direction: column;
+}
+.city_2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.city_text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.city_text_grey {
+    font-size: 15px;
+    color: rgb(169, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.city_cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    width: 295px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.bisness_cart {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 310px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+
+.avia_info {
+    display: flex; 
+    margin-top: 20px;
+    flex-direction: row;
+    width: 1400px;
+    justify-content: space-between;
+}
+.avia_card {
+    display: flex;
+    flex-direction: column;
+}
+.avia_card_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.avia_card_text:hover {
+    cursor: pointer;
+    color: rgb(83, 83, 255);
+}
+
+
+.dop {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;   
+    width: 1200px;
+    margin-top: 50px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: space-between;
+}
+.logotip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170px;
+    height: 50px;
+    align-items: center;
+}
+.many_logo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+}
+.logo_svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.logo_svg:hover {
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+}
+
+.hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+}
+
+.qr_code {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(225, 225, 225);
+}
+.qr_code:hover {
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+}
+.input_poh {
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    align-content: center; 
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 1400px;
+}
+.last_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

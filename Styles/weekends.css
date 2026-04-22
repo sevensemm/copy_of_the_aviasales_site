@@ -1,0 +1,71 @@
+.weekends {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(105, 203, 255);
+    width: 800px;
+    border-radius: 20px;
+}
+.weekends_info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+}
+.weekends_info_2 {
+    width: 400px;   
+}
+.weekends_title {
+    margin: 0%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 35px;
+    
+}
+.weekends_text {
+    margin: 0%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.weekends_button {
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: rgba(62, 184, 225, 0.765);
+}
+.weekends_button:hover {
+    background-color: rgba(62, 184, 225, 0.256);
+}
+#calendar {
+    margin-top: -50px;
+}
+.around_calendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+.calendar_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 130px;
+}
+.cc_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.cc_content_title {
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.cc_content_text {
+    margin: 0%;
+}
